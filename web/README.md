@@ -1,12 +1,25 @@
-# app-test
+To run the App
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.11.1.
+Minimum requirements
 
-## Build & development
+Install the following 
 
-Run `grunt` for building and `grunt serve` for preview.
+Node - to install npm packages.
 
-## Testing
+Bower - to install the third praty/libarary inside project after clone.
 
-Running `grunt test` will run the unit tests with karma.
+Grunt - to run server.
+
+Step 1.
+ - Open terminal/command prompt
+ - Clone the copy into your local system.
+ - Navigate to the directory
+
+Step2. 
+ - Run the following command "npm install"
+ - Run the following "bower install"
+
+Step3
+
+ - grunt serve
+ - application open in browser
