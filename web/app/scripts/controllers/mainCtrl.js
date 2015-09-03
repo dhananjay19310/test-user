@@ -9,7 +9,15 @@
  */
 angular.module('appTestApp')
   .controller('mainCtrl', function ($scope) {
+  	$scope.formData = true;
+  	$scope.image1 = true;
 
-  	console.log('landin page');
-
+  	//TO hide and show form
+  	$scope.toggleForm = function() {
+        $scope.formData = $scope.formData === false ? true: false;
+    };
+    //toggle image on click of button
+    $scope.imageToggle = function() {
+		$scope.image1 = !$scope.image1;
+	}
   });
